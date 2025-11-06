@@ -6,15 +6,15 @@ Hallo! Dies ist eine Praesentation, die ich im September 2025 fuer mein Seminar 
 
 ## Worum ging es?
 
-In der Software-Architektur ist **enge Kopplung** eines der groessten Probleme, das zu schwer wartbarem Code fuehrt.
+In der Software-Architektur ist **enge Kopplung** ein bekanntes Problem, das zu schwer wartbarem Code fuehren kann.
 
-In dieser Praesentation habe ich zwei fundamentale Loesungsansaetze (Verhaltensmuster) analysiert und verglichen, die dieses Problem loesen:
+Diese Praesentation stellt zwei Loesungsansaetze (Verhaltensmuster) vor und vergleicht sie:
 
-1.  **Das Observer-Muster:** Perfekt fuer 1-zu-N-Beziehungen, bei denen ein Objekt (das Subjekt) viele andere (die Observer) ueber Aenderungen informieren muss, ohne sie direkt zu kennen.
-2.  **Das Mediator-Muster:** Ideal, um chaotische "Viele-zu-Viele"-Kommunikation zu buendeln, indem ein zentraler Mediator die gesamte Interaktion steuert.
+1.  **Das Observer-Muster:** Definiert eine 1-zu-N-Beziehung, bei der ein Objekt (das Subjekt) viele andere (die Observer) ueber Aenderungen informiert, ohne sie direkt zu kennen.
+2.  **Das Mediator-Muster:** Buendelt "Viele-zu-Viele"-Kommunikation, indem ein zentraler Mediator die gesamte Interaktion steuert.
 
-### Was ich in der Praesentation beleuchte:
+### Behandelte Themen:
 
-* **Der Kern-Unterschied:** Wann verwende ich eine "Broadcast"-Logik (Observer) und wann einen "zentralen Hub" (Mediator)?
-* **Praxisbeispiele:** Wie das Observer-Muster im MVC-Pattern funktioniert und wie der Mediator komplexe UI-Dialogfenster vereinfacht.
-* **Vor- & Nachteile:** Ich analysiere die Gefahren, wie "kaskadierende Updates" beim Observer oder die "God Object"-Gefahr beim Mediator.
+* **Der Kern-Unterschied:** Wann wird eine "Broadcast"-Logik (Observer) verwendet und wann ein "zentraler Hub" (Mediator)?
+* **Praxisbeispiele:** Die Anwendung des Observer-Musters im MVC-Pattern und der Einsatz des Mediators zur Vereinfachung von UI-Dialogfenstern.
+* **Vor- & Nachteile:** Eine Gegenueberstellung der potenziellen Risiken, wie "kaskadierende Updates" (Observer) oder die "God Object"-Gefahr (Mediator).
