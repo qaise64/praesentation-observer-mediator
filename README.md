@@ -1,20 +1,25 @@
-# Praesentation: Observer vs. Mediator Pattern
+# Präsentation: Observer vs. Mediator Pattern
 
-Dies ist eine Praesentation, die ich im September 2025 fuer mein Seminar "Entwurfsmuster" an der Hochschule Niederrhein gehalten habe.
+Präsentation aus dem Seminar "Entwurfsmuster" an der Hochschule Niederrhein.
 
-[**Hier geht's direkt zur vollstaendigen Praesentation (PDF) – sie oeffnet im Browser.**](./Entwurfmuster.pdf)
+📄 Präsentation:
+[Entwurfmuster.pdf](./Entwurfmuster.pdf)
 
-## Worum ging es?
+## Inhalte
 
-In der Software-Architektur ist **enge Kopplung** ein bekanntes Problem, das zu schwer wartbarem Code fuehren kann.
+- Observer Pattern
+- Mediator Pattern
+- UML-Strukturen und Teilnehmer
+- Kommunikationsabläufe
+- Vor- und Nachteile
+- Direkter Vergleich beider Muster
+- Typische Anwendungsfälle
 
-Diese Praesentation stellt zwei Loesungsansaetze (Verhaltensmuster) vor und vergleicht sie:
+## Kerngedanke
 
-1.  **Das Observer-Muster:** Definiert eine 1-zu-N-Beziehung, bei der ein Objekt (das Subjekt) viele andere (die Observer) ueber Aenderungen informiert, ohne sie direkt zu kennen.
-2.  **Das Mediator-Muster:** Buendelt "Viele-zu-Viele"-Kommunikation, indem ein zentraler Mediator die gesamte Interaktion steuert.
+Beide Muster reduzieren Kopplung, verfolgen jedoch unterschiedliche Ziele:
 
-### Behandelte Themen:
+- Observer synchronisiert Zustände zwischen Objekten.
+- Mediator zentralisiert und steuert komplexe Interaktionen.
 
-* **Der Kern-Unterschied:** Wann wird eine "Broadcast"-Logik (Observer) verwendet und wann ein "zentraler Hub" (Mediator)?
-* **Praxisbeispiele:** Die Anwendung des Observer-Musters im MVC-Pattern und der Einsatz des Mediators zur Vereinfachung von UI-Dialogfenstern.
-* **Vor- & Nachteile:** Eine Gegenueberstellung der potenziellen Risiken, wie "kaskadierende Updates" (Observer) oder die "God Object"-Gefahr (Mediator).
+Die Wahl hängt vom jeweiligen Kommunikationsproblem ab.
